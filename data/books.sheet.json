@@ -1,0 +1,215 @@
+[
+  {
+    "title": "The Throwback Special",
+    "author": "Chris Bachelder",
+    "genre": "Fiction",
+    "year": 2016,
+    "link": "http://www.nytimes.com/2016/03/27/books/review/the-throwback-special-by-chris-bachelder.html"
+  },
+  {
+    "title": "Imagine Me Gone",
+    "author": "Adam Haslett",
+    "genre": "Fiction",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/imagine-me-gone-a-family-trapped-in-its-own-history/"
+  },
+  {
+    "title": "News of the World",
+    "author": "Paulette Jiles",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2016,
+    "link": "https://www.washingtonpost.com/entertainment/books/can-a-10-year-old-girl-ever-recover-from-years-in-captivity/2016/09/27/4a16ca72-840a-11e6-ac72-a29979381495_story.html?utm_term=.66d8df0e07a1"
+  },
+  {
+    "title": "Mercury",
+    "author": "Margot Livesey",
+    "genre": "Fiction",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/margot-liveseys-latest-mercury-is-a-tale-of-obsession/"
+  },
+  {
+    "title": "The Last One",
+    "author": "Alexandra Oliva",
+    "genre": "Fiction; Science Fiction",
+    "year": 2016,
+    "local": "x",
+    "link": "http://www.seattletimes.com/entertainment/books/the-last-one-whats-behind-the-curtain-at-a-reality-tv-show/"
+  },
+  {
+    "title": "Thomas Jefferson Dreams of Sally Hemings",
+    "author": "Stephen O’Connor",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2016,
+    "link": "http://www.npr.org/2016/04/06/471619275/the-agonizing-collision-of-love-and-slavery-in-thomas-jefferson"
+  },
+  {
+    "title": "Commonwealth",
+    "author": "Ann Patchett",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/ann-patchetts-commonwealth-two-shattered-marriages-and-what-comes-after/"
+  },
+  {
+    "title": "Barkskins",
+    "author": "Annie Proulx",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/annie-proulxs-barkskins-a-reckoning-for-the-endless-forest/"
+  },
+  {
+    "title": "Lovecraft Country",
+    "author": "Matt Ruff",
+    "genre": "Fiction; Historical Fiction; Horror",
+    "year": 2016,
+    "local": "x",
+    "link": "http://www.seattletimes.com/entertainment/books/matt-ruffs-lovecraft-country-horrors-in-1950s-america/"
+  },
+  {
+    "title": "Swing Time",
+    "author": "Zadie Smith",
+    "genre": "Fiction",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/zadie-smiths-swing-time-explores-female-friendship-and-dancing/"
+  },
+  {
+    "title": "Daredevils",
+    "author": "Shawn Vestal",
+    "genre": "Fiction",
+    "year": 2016,
+    "local": "x",
+    "link": "http://www.seattletimes.com/entertainment/books/shawn-vestals-daredevils-a-wild-flight-out-of-idaho/"
+  },
+  {
+    "title": "The Underground Railroad",
+    "author": "Colson Whitehead",
+    "genre": "Fiction; Historical Fiction; Fantasy",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/colson-whiteheads-latest-novel-underground-railroad-is-his-finest/"
+  },
+  {
+    "title": "Ninety-Nine Stories of God",
+    "author": "Joy Williams",
+    "genre": "Fiction; Short Stories",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/ninety-nine-stories-of-god-one-deity-99-shards-of-truth/"
+  },
+  {
+    "title": "Another Brooklyn",
+    "author": "Jacqueline Woodson",
+    "genre": "Fiction",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/jacqueline-woodsons-another-brooklyn-sharing-the-weight-of-growing-up-girl/"
+  },
+  {
+    "title": "Once They Were Hats: In Search of the Mighty Beaver",
+    "author": "Frances Backhouse",
+    "genre": "Nonfiction; Environment",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/once-they-were-hats-the-saga-of-the-resilient-beaver/"
+  },
+  {
+    "title": "The Earth is Weeping",
+    "author": "Peter Cozzens",
+    "genre": "Nonfiction; History",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/peter-cozzens-new-book-examines-25-years-of-us-native-american-policy/"
+  },
+  {
+    "title": "Shirley Jackson: A Rather Haunted Life",
+    "author": "Ruth Franklin",
+    "genre": "Nonfiction; Biography",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/the-haunted-humorous-life-and-work-of-writer-shirley-jackson/"
+  },
+  {
+    "title": "Charlotte Brontë: A Fiery Heart",
+    "author": "Claire Harman",
+    "genre": "Nonfiction; Biography",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/charlotte-bront-a-short-quiet-life-of-tragedy-and-talent/"
+  },
+  {
+    "title": "The Pigeon Tunnel",
+    "author": "John le Carré",
+    "genre": "Nonfiction; Memoir",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/john-le-carrs-the-pigeon-tunnel-some-spellbinding-true-tales-of-a-master-spy-novelist/"
+  },
+  {
+    "title": "Landmarks",
+    "author": "Robert Macfarlane",
+    "genre": "Nonfiction; Natural History",
+    "year": 2016,
+    "link": "http://www.nytimes.com/2016/07/28/books/review-landmarks-robert-macfarlane-language-and-landscape.html"
+  },
+  {
+    "title": "The Gene: An Intimate History",
+    "author": "Siddhartha Mukherjee",
+    "genre": "Nonfiction; Science",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/the-gene-wanders-into-the-biological-weeds-but-its-a-place-youll-want-to-go/"
+  },
+  {
+    "title": "On Trails — An Exploration",
+    "author": "Robert Moor",
+    "genre": "Nonfiction; Natural History",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/on-trails-where-how-and-why-the-earths-creatures-wander/"
+  },
+  {
+    "title": "The Nordic Theory of Everything: In Search of a Better Life",
+    "author": "Anu Partanen",
+    "genre": "Nonfiction; Sociology",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/the-nordic-theory-of-everything-northward-for-a-better-life/"
+  },
+  {
+    "title": "Valiant Ambition",
+    "author": "Nathaniel Philbrick",
+    "genre": "Nonfiction; History",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/nathaniel-philbricks-valiant-ambition-how-betrayal-helped-win-the-revolutionary-war/"
+  },
+  {
+    "title": "Midnight in Broad Daylight",
+    "author": "Pamela Rotner Sakamoto",
+    "genre": "Nonfiction; History",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/midnight-in-broad-daylight-world-war-ii-sunders-a-family/"
+  },
+  {
+    "title": "The End of Karma",
+    "author": "Somini Sengupta",
+    "genre": "Nonfiction; History",
+    "year": 2016,
+    "cover": "endofkarma",
+    "link": "http://www.seattletimes.com/entertainment/books/the-end-of-karma-rewriting-destiny-for-indias-youth/"
+  },
+  {
+    "title": "The Civil Wars of Julia Ward Howe",
+    "author": "Elaine Showalter",
+    "genre": "Nonfiction; History; Biography",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/the-embattled-heart-and-home-of-julia-ward-howe/"
+  },
+  {
+    "title": "Hillbilly Elegy",
+    "author": "J.D. Vance",
+    "genre": "Nonfiction; Memoir",
+    "year": 2016,
+    "link": "http://www.seattletimes.com/entertainment/books/book-review-jd-vances-hillbilly-elegy-provides-window-into-trumps-america/"
+  },
+  {
+    "title": "A God in Ruins",
+    "author": "Kate Atkinson",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2015,
+    "link": "http://www.seattletimes.com/entertainment/books/kate-atkinsons-a-god-in-ruins-songs-never-sung/"
+  },
+  {
+    "title": "Sorcerer to the Crown",
+    "author": "Zen Cho",
+    "genre": "Fiction; Fantasy",
+    "link": "http://www.seattletimes.com/entertainment/books/sorcerer-to-the-crown-magic-afoot-in-regency-england/"
+  }
+]
