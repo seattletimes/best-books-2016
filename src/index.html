@@ -6,9 +6,28 @@
   </head>
   <body>
 
-    <responsive-child>
-      <!-- content goes here -->
-    </responsive-child>
+    <main class="app">
+
+      <div class="filters">
+
+      </div>
+
+      <div class="listings">
+      <% json.books.forEach(function(book) { %>
+        <div class="book"
+          data-genre="<%= book.genre %>"
+          data-year="<%= book.year %>"
+          data-local="<%= book.local %>"
+          data-title="<%= book.title %>">
+          <div class="placeholder"></div>
+          <h2 class="title"><%= book.title %></h2>
+          <h3 class="author"><%= book.author %></h3>
+          <a class="review-link" href="<%= book.link %>" target="_blank">Read full review</a>
+        </div>
+      <% }) %>
+      </div>
+
+    </main>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
