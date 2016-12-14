@@ -1,11 +1,60 @@
 @import "seattletimes";
 
 main.app {
-  max-width: 800px;
+  max-width: 1200px;
+  padding: 16px;
   margin: auto;
+  .display-flex();
+}
+
+.filters {
+  .flex(0 0 200px);
+  font-family: @df-sans;
+  font-size: 15px;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 16px;
+  }
+
+  li {
+    display: block;
+    line-height: 1;
+  }
+
+  input[type=checkbox] {
+    display: none;
+
+    & + label {
+      padding: 2px 8px;
+      margin: 2px 0;
+      color: white;
+      background: @df-middle-gray;
+      display: block;
+      cursor: pointer;
+      text-transform: uppercase;
+
+
+      &::before {
+        content: "○";
+        margin-right: 8px;
+      }
+    }
+
+    &:checked + label {
+      color: white;
+      background: @df-blue;
+
+      &::before {
+        content: "✓"
+      }
+    }
+  }
 }
 
 .listings {
+  .flex(1 1 0%);
   .display-flex();
   .flex-wrap(wrap);
   font-family: @df-sans;
@@ -13,7 +62,11 @@ main.app {
 
   .book {
     .flex(0 0 33%);
-    padding: 16px;
+    padding: 0 16px;
+
+    &.hidden {
+      display: none;
+    }
 
     .title {
       font-size: 20px;
@@ -26,13 +79,25 @@ main.app {
       margin: 0;
     }
 
+    .local.badge {
+      float: right;
+      margin-left: 20px;
+      font-size: 20px;
+      color: @df-orange;
+    }
+
     .placeholder {
       height: 240px;
-      margin: 8px 0;
-      background-color: @df-light-gray;
+      margin: 0 0 8px;
+      @t: transparent;
+      @line: @df-light-gray;
+      @bg: @df-off-white;
+      background-color: @bg;
       background-image:
-        linear-gradient(to bottom right, transparent 0%, transparent 50%, @df-middle-gray 50%, @df-middle-gray 51%, transparent 51%),
-        linear-gradient(to bottom left, transparent 0%, transparent 50%, @df-middle-gray 50%, @df-middle-gray 51%, transparent 51%);
+        repeating-linear-gradient(to bottom left, @t 0px, @t 5px, @bg 5px, @bg 6px, @t 6px),
+        repeating-linear-gradient(to bottom right, @t 0px, @t 5px, @bg 5px, @bg 6px, @t 6px),
+        linear-gradient(to bottom right, @t 0%, @t 50%, @line 50%, @line 51%, @t 51%),
+        linear-gradient(to bottom left, @t 0%, @t 50%, @line 50%, @line 51%, @t 51%);
     }
 
     .review-link {
