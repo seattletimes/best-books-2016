@@ -9,7 +9,8 @@
     <main class="app">
 
       <div class="filters">
-
+        <ul class="category"></ul>
+        <ul class="year"></ul>
       </div>
 
       <div class="listings">
@@ -19,9 +20,16 @@
           data-year="<%= book.year %>"
           data-local="<%= book.local %>"
           data-title="<%= book.title %>">
+
           <div class="placeholder"></div>
+
+          <% if (book.local) { %>
+          <div class="local badge" title="Local author">&bigstar;</div>
+          <% } %>
+
           <h2 class="title"><%= book.title %></h2>
           <h3 class="author"><%= book.author %></h3>
+
           <a class="review-link" href="<%= book.link %>" target="_blank">Read full review</a>
         </div>
       <% }) %>
