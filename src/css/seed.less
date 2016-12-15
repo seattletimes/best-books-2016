@@ -149,6 +149,15 @@ input#show-filters {
 
     @media (max-width: 600px) {
       .flex(0 0 50%);
+      padding: 8px 0;
+    }
+
+    @media @mobile {
+      .display-flex;
+
+      .details {
+        .flex(1 1 100%);
+      }
     }
 
     &.animated {
@@ -190,8 +199,10 @@ input#show-filters {
 
       @media @tablet {
         float: none;
-        margin: 8px 0;
+        margin: 0 0 8px;
+        padding: 2px 0;
         max-width: 100%;
+        width: 100%;
       }
     }
 
@@ -209,9 +220,17 @@ input#show-filters {
         linear-gradient(to bottom left, @t 0%, @t 50%, @line 50%, @line 51%, @t 51%);
 
       @media @mobile {
-        float: left;
-        width: 33%;
-        height: 100px;
+        .flex(0 0 25%);
+        height: auto;
+        margin-right: 8px;
+      }
+    }
+
+    .cover {
+      width: 100%;
+
+      @media @mobile {
+        .flex(0 0 25%);
         margin-right: 8px;
       }
     }

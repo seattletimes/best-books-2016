@@ -55,6 +55,7 @@
     "author": "Annie Proulx",
     "genre": "Fiction; Historical Fiction",
     "year": 2016,
+    "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/annie-proulxs-barkskins-a-reckoning-for-the-endless-forest/"
   },
   {
@@ -659,6 +660,7 @@
     "author": "Scott Stossel",
     "genre": "Nonfiction; Memoir",
     "year": 2014,
+    "cover": "ageofanxiety",
     "link": "http://www.seattletimes.com/entertainment/books/lsquomy-age-of-anxietyrsquo-living-with-debilitating-dread/"
   },
   {
@@ -666,6 +668,7 @@
     "author": "Jan Swafford",
     "genre": "Nonfiction; Biography; Music",
     "year": 2014,
+    "cover": "beethoven",
     "link": "http://old.seattletimes.com/html/books/2024198189_beethovenjanswaffordxml.html"
   },
   {
@@ -673,6 +676,7 @@
     "author": "Amanda Vaill",
     "genre": "Nonfiction; History; War",
     "year": 2014,
+    "cover": "hotelflorida",
     "link": "https://www.theguardian.com/books/2014/jun/20/hotel-florida-truth-love-death-spanish-civil-war-amanda-vaill-review"
   }
 ]
