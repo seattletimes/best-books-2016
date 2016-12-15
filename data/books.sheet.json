@@ -16,21 +16,22 @@
   {
     "title": "News of the World",
     "author": "Paulette Jiles",
-    "genre": "Fiction; Historical Fiction",
+    "genre": "Fiction; Historical Fiction; War",
     "year": 2016,
+    "cover": "newsoftheworld",
     "link": "https://www.washingtonpost.com/entertainment/books/can-a-10-year-old-girl-ever-recover-from-years-in-captivity/2016/09/27/4a16ca72-840a-11e6-ac72-a29979381495_story.html?utm_term=.66d8df0e07a1"
   },
   {
     "title": "Mercury",
     "author": "Margot Livesey",
-    "genre": "Fiction",
+    "genre": "Fiction; Thriller",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/margot-liveseys-latest-mercury-is-a-tale-of-obsession/"
   },
   {
     "title": "The Last One",
     "author": "Alexandra Oliva",
-    "genre": "Fiction; Science Fiction",
+    "genre": "Fiction; Science Fiction; Thriller",
     "year": 2016,
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/the-last-one-whats-behind-the-curtain-at-a-reality-tv-show/"
@@ -74,7 +75,7 @@
   {
     "title": "Daredevils",
     "author": "Shawn Vestal",
-    "genre": "Fiction",
+    "genre": "Fiction; Young Adult",
     "year": 2016,
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/shawn-vestals-daredevils-a-wild-flight-out-of-idaho/"
@@ -82,7 +83,7 @@
   {
     "title": "The Underground Railroad",
     "author": "Colson Whitehead",
-    "genre": "Fiction; Historical Fiction; Fantasy",
+    "genre": "Fiction; Historical Fiction",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/colson-whiteheads-latest-novel-underground-railroad-is-his-finest/"
   },
@@ -96,21 +97,21 @@
   {
     "title": "Another Brooklyn",
     "author": "Jacqueline Woodson",
-    "genre": "Fiction",
+    "genre": "Fiction; Young Adult",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/jacqueline-woodsons-another-brooklyn-sharing-the-weight-of-growing-up-girl/"
   },
   {
     "title": "Once They Were Hats: In Search of the Mighty Beaver",
     "author": "Frances Backhouse",
-    "genre": "Nonfiction; Environment",
+    "genre": "Nonfiction; Nature/Environment",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/once-they-were-hats-the-saga-of-the-resilient-beaver/"
   },
   {
     "title": "The Earth is Weeping",
     "author": "Peter Cozzens",
-    "genre": "Nonfiction; History",
+    "genre": "Nonfiction; History; War",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/peter-cozzens-new-book-examines-25-years-of-us-native-american-policy/"
   },
@@ -138,7 +139,7 @@
   {
     "title": "Landmarks",
     "author": "Robert Macfarlane",
-    "genre": "Nonfiction; Natural History",
+    "genre": "Nonfiction; Nature/Environment",
     "year": 2016,
     "link": "http://www.nytimes.com/2016/07/28/books/review-landmarks-robert-macfarlane-language-and-landscape.html"
   },
@@ -152,28 +153,28 @@
   {
     "title": "On Trails — An Exploration",
     "author": "Robert Moor",
-    "genre": "Nonfiction; Natural History",
+    "genre": "Nonfiction; Nature/Environment; Science",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/on-trails-where-how-and-why-the-earths-creatures-wander/"
   },
   {
     "title": "The Nordic Theory of Everything: In Search of a Better Life",
     "author": "Anu Partanen",
-    "genre": "Nonfiction; Sociology",
+    "genre": "Nonfiction",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/the-nordic-theory-of-everything-northward-for-a-better-life/"
   },
   {
     "title": "Valiant Ambition",
     "author": "Nathaniel Philbrick",
-    "genre": "Nonfiction; History",
+    "genre": "Nonfiction; History; War",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/nathaniel-philbricks-valiant-ambition-how-betrayal-helped-win-the-revolutionary-war/"
   },
   {
     "title": "Midnight in Broad Daylight",
     "author": "Pamela Rotner Sakamoto",
-    "genre": "Nonfiction; History",
+    "genre": "Nonfiction; History; War",
     "year": 2016,
     "link": "http://www.seattletimes.com/entertainment/books/midnight-in-broad-daylight-world-war-ii-sunders-a-family/"
   },
@@ -253,7 +254,7 @@
   {
     "title": "Black River",
     "author": "S.M. Hulse",
-    "genre": "Fiction",
+    "genre": "Fiction; Western",
     "year": 2015,
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/black-river-pain-justice-and-resolution-at-a-montana-prison/"
@@ -346,14 +347,14 @@
   {
     "title": "Between the World and Me",
     "author": "Ta-Nehisi Coates",
-    "genre": "Nonfiction; Memoir; Race; Social Justice",
+    "genre": "Nonfiction; Memoir; Social Justice",
     "year": 2015,
     "link": "http://www.seattletimes.com/entertainment/books/between-the-world-and-me-to-be-black-in-todays-america/"
   },
   {
     "title": "Romantic Outlaws: The Extraordinary Lives of Mary Wollstonecraft and her Daughter Mary Shelley",
     "author": "Charlotte Gordon",
-    "genre": "Nonfiction; Biography; History; Feminism",
+    "genre": "Nonfiction; Biography; History",
     "year": 2015,
     "link": "http://www.seattletimes.com/entertainment/books/romantic-outlaws-a-mother-and-daughter-of-spirit-and-heart/"
   },
@@ -367,7 +368,7 @@
   {
     "title": "The Triumph of Seeds",
     "author": "Thor Hanson",
-    "genre": "Nonfiction; Science; History; Food",
+    "genre": "Nonfiction; Science; History",
     "year": 2015,
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/thor-hansons-the-triumph-of-seeds-new-life-tiny-package/"
@@ -375,7 +376,7 @@
   {
     "title": "H is for Hawk",
     "author": "Helen Macdonald",
-    "genre": "Nonfiction; Memoir; Nature",
+    "genre": "Nonfiction; Memoir; Nature/Environment",
     "year": 2015,
     "link": "http://www.seattletimes.com/entertainment/books/h-is-for-hawk-in-the-slipstream-of-grief/"
   },
@@ -425,7 +426,7 @@
   {
     "title": "Island on Fire: The Extraordinary Story of a Forgotten Volcano",
     "author": "Alexandra Witze and Jeff Kanipe",
-    "genre": "Nonfiction; History; Science; Nature",
+    "genre": "Nonfiction; History; Science; Nature/Environment",
     "year": 2015,
     "link": "http://www.seattletimes.com/entertainment/books/lsquoisland-on-firersquo-a-cataclysmic-long-ago-icelandic-volcano/"
   },
@@ -440,36 +441,238 @@
     "title": "The Orenda",
     "author": "Joseph Boyden",
     "genre": "Fiction; Historical Fiction",
+    "year": 2014,
     "link": "http://old.seattletimes.com/html/books/2023553400_josephboydenorendaxml.html"
   },
   {
     "title": "All the Light We Cannot See",
     "author": "Anthony Doerr",
     "genre": "Fiction; Historical Fiction; War",
+    "year": 2014,
     "link": "http://www.seattletimes.com/entertainment/books/lsquoall-the-light-we-cannot-seersquo-a-gem-of-a-world-war-ii-novel/"
   },
   {
     "title": "The Narrow Road to the Deep North",
     "author": "Richard Flanagan",
     "genre": "Fiction; Historical Fiction; War",
+    "year": 2014,
     "link": "http://old.seattletimes.com/html/books/2024399618_flanagannarrowroadxml.html"
   },
   {
     "title": "Let Me Be Frank with You",
     "author": "Richard Ford",
     "genre": "Fiction; Short Stories",
+    "year": 2014,
     "link": "http://old.seattletimes.com/html/books/2025057299_richardfordfrankxml.html"
   },
   {
     "title": "The Stories of Jane Gardam",
     "author": "Jane Gardam",
     "genre": "Fiction; Short Stories",
+    "year": 2014,
     "link": "http://old.seattletimes.com/html/books/2023819609_storiesjanegardamxml.html?syndication=rss"
   },
   {
     "title": "The Peripheral",
     "author": "William Gibson",
     "genre": "Fiction; Science Fiction; Thriller",
+    "year": 2014,
     "link": "http://old.seattletimes.com/html/books/2024855682_williamgibsonperipheralxml.html"
+  },
+  {
+    "title": "The Museum of Extraordinary Things",
+    "author": "Alice Hoffman",
+    "genre": "Fiction; Historical Fiction; Fantasy",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2022890903_museumextraordinarythingshoffmanxml.html"
+  },
+  {
+    "title": "A Brief History of Seven Killings",
+    "author": "Marlon James",
+    "genre": "Fiction; Mystery",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquoa-brief-history-of-seven-killingsrsquo-a-gritty-jamaican-epic/"
+  },
+  {
+    "title": "Euphoria",
+    "author": "Lily King",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2023880370_lilykingeuphoriaxml.html"
+  },
+  {
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "genre": "Fiction; Science Fiction",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquostation-elevenrsquo-in-a-dark-time-the-playrsquos-still-the-thing/"
+  },
+  {
+    "title": "The Last Kind Words Saloon",
+    "author": "Larry McMurtry",
+    "genre": "Fiction; Historical Fiction; Western",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquothe-last-kind-words-saloonrsquo-an-elegiac-tale-of-the-old-west/"
+  },
+  {
+    "title": "The Wind Is Not a River",
+    "author": "Brian Payton",
+    "genre": "Fiction; Historical Fiction; War",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2022740793_windriverpaytonxml.html"
+  },
+  {
+    "title": "Fives and Twenty-Fives",
+    "author": "Michael Pitre",
+    "genre": "Fiction; Historical Fiction; War",
+    "year": 2014,
+    "link": "https://www.nytimes.com/2014/08/21/books/fives-and-twenty-fives-by-michael-pitre-shows-wartime-iraq.html"
+  },
+  {
+    "title": "The Rise & Fall of Great Powers",
+    "author": "Tom Rachman",
+    "genre": "Fiction; Mystery",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2023764990_tomrachmangreatpowersxml.html"
+  },
+  {
+    "title": "Lila",
+    "author": "Marilynne Robinson",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2024671170_lilamarilynnerobinsonxml.html"
+  },
+  {
+    "title": "Some Luck",
+    "author": "Jane Smiley",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquosome-luckrsquo-jane-smileyrsquos-saga-of-an-iowa-farm-family/"
+  },
+  {
+    "title": "Lost for Words",
+    "author": "Edward St. Aubyn",
+    "genre": "Fiction",
+    "year": 2014,
+    "link": "https://www.nytimes.com/2014/05/25/books/review/lost-for-words-by-edward-st-aubyn.html"
+  },
+  {
+    "title": "The Paying Guests",
+    "author": "Sarah Waters",
+    "genre": "Fiction; Historical Fiction",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquothe-paying-guestsrsquo-illicit-love-an-invitation-to-disaster/"
+  },
+  {
+    "title": "The Human Age: The World Shaped By Us",
+    "author": "Diane Ackerman",
+    "genre": "Nonfiction; Science; Nature/Environment",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquothe-human-agersquo-survey-of-the-wonders-of-a-battered-earth/"
+  },
+  {
+    "title": "Redeemer: The Life of Jimmy Carter",
+    "author": "Randall Balmer",
+    "genre": "Nonfiction; Biography",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquoredeemerrsquo-the-evolution-and-ascent-of-jimmy-carter/"
+  },
+  {
+    "title": "Can’t We Talk About Something More Pleasant?",
+    "author": "Roz Chast",
+    "genre": "Nonfiction; Memoir",
+    "year": 2014,
+    "link": "https://www.nytimes.com/2014/06/01/books/review/roz-chasts-cant-we-talk-about-something-more-pleasant.html"
+  },
+  {
+    "title": "A Sting in the Tale — My Adventures with Bumblebees",
+    "author": "Dave Goulson",
+    "genre": "Nonfiction; Science; Nature/Environment",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquoa-sting-in-the-talersquo-the-essential-bumblebee/"
+  },
+  {
+    "title": "Rebel Yell: The Violence, Passion and Redemption of Stonewall Jackson",
+    "author": "S.C. Gwynne",
+    "genre": "Nonfiction; History; Biography; War",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2024905180_litlifestonewalljacksonxml.html?syndication=rss"
+  },
+  {
+    "title": "Disobeying Hitler: German Resistance after Operation Valkyrie",
+    "author": "Randall Hansen",
+    "genre": "Nonfiction; History; War",
+    "year": 2014,
+    "link": "https://www.utoronto.ca/news/disobeying-hitler-german-resistance-after-operation-valkyrie"
+  },
+  {
+    "title": "Midnight at the Pera Palace: The Birth of Modern Istanbul",
+    "author": "Charles King",
+    "genre": "Nonfiction; History",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2024505130_kingperapalacexml.html?syndication=rss"
+  },
+  {
+    "title": "Blood Will Out: The True Story of a Murder, a Mystery, and a Masquerade",
+    "author": "Walter Kirn",
+    "genre": "Nonfiction; Crime; Memoir",
+    "year": 2014,
+    "link": "https://www.nytimes.com/2014/03/09/books/review/walter-kirns-blood-will-out.html"
+  },
+  {
+    "title": "The Sixth Extinction: An Unnatural History",
+    "author": "Elizabeth Kolbert",
+    "genre": "Nonfiction; Science; Nature/Environment",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/a-journalist-investigates-the-planetrsquos-lsquosixth-extinctionrsquo/"
+  },
+  {
+    "title": "Empire of Sin",
+    "author": "Gary Krist",
+    "genre": "Nonfiction; History; Crime",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2024845582_empiresinkristxml.html"
+  },
+  {
+    "title": "Penelope Fitzgerald: A Life",
+    "author": "Hermione Lee",
+    "genre": "Nonfiction; Biography",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2025098452_penelopefitzgeraldleexml.html"
+  },
+  {
+    "title": "Limber",
+    "author": "Angela Pelster",
+    "genre": "Nonfiction",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2023387536_limberangelapelsterxml.html"
+  },
+  {
+    "title": "Just Mercy: A Story of Justice and Redemption",
+    "author": "Bryan Stevenson",
+    "genre": "Nonfiction; Memoir; Social Justice",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquojust-mercyrsquo-fighting-injustice-in-a-broken-legal-system/"
+  },
+  {
+    "title": "My Age of Anxiety: Fear, Hope, Dread, and the Search for Peace of Mind",
+    "author": "Scott Stossel",
+    "genre": "Nonfiction; Memoir",
+    "year": 2014,
+    "link": "http://www.seattletimes.com/entertainment/books/lsquomy-age-of-anxietyrsquo-living-with-debilitating-dread/"
+  },
+  {
+    "title": "Beethoven: Anguish and Triumph",
+    "author": "Jan Swafford",
+    "genre": "Nonfiction; Biography; Music",
+    "year": 2014,
+    "link": "http://old.seattletimes.com/html/books/2024198189_beethovenjanswaffordxml.html"
+  },
+  {
+    "title": "Hotel Florida: Truth, Love and Death in the Spanish Civil War",
+    "author": "Amanda Vaill",
+    "genre": "Nonfiction; History; War",
+    "year": 2014,
+    "link": "https://www.theguardian.com/books/2014/jun/20/hotel-florida-truth-love-death-spanish-civil-war-amanda-vaill-review"
   }
 ]

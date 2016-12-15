@@ -3,6 +3,9 @@
 // var track = require("./lib/tracking");
 
 var $ = require("./lib/qsa");
+var flip = require("./lib/flip");
+
+var noop = function() {};
 
 var categories = {};
 var years = {};
@@ -45,10 +48,15 @@ yearFilter.innerHTML = Object.keys(years).sort().reverse().map(createFilterEleme
 
 var filterElement = document.querySelector(".filters");
 
-filterElement.addEventListener("change", function(e) {
+var runFilters = function(e) {
   var cats = $("input:checked", catFilter).map(el => el.value);
   var years = $("input:checked", yearFilter).map(el => el.value);
   var local = document.querySelector(".filters .local input:checked");
+
+  var flipping = [];
+
+  //get initial position
+  books.forEach(b => b.first = b.element.getBoundingClientRect());
 
   books.forEach(function(b) {
     var show = true;
@@ -56,7 +64,33 @@ filterElement.addEventListener("change", function(e) {
     if (years.length && years.indexOf(b.year) < 0) show = false;
     if (local && !b.local) show = false;
 
+    b.element.classList.remove("animated");
+    var isVisible = !b.element.classList.contains("hidden");
+    if (show && isVisible) {
+      flipping.push(b);
+    }
     b.element.classList[show ? "remove" : "add"]("hidden");
+    if (show && !isVisible) {
+      b.element.classList.add("animated", "faded");
+    }
   });
 
-});
+  requestAnimationFrame(function() {
+    flipping.forEach(function(b) {
+      var bounds = b.element.getBoundingClientRect();
+      var offset = {
+        x: b.first.left - bounds.left,
+        y: b.first.top - bounds.top
+      };
+      b.element.style.transform = `translate(${offset.x}px, ${offset.y}px)`;
+      var reflow = b.element.offsetWidth;
+      b.element.classList.add("animated");
+      b.element.style.transform = "";
+    });
+    $(".faded").forEach(el => el.classList.remove("faded"));
+  });
+
+};
+
+filterElement.addEventListener("change", runFilters);
+runFilters();

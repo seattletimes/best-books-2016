@@ -6,7 +6,16 @@
   </head>
   <body>
 
-    <main class="app">
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="constrained">
+      <h1>The best books</h1>
+    </header>
+
+    <main class="app constrained">
+
 
       <div class="filters">
         <ul class="category">
@@ -40,11 +49,14 @@
           <div class="placeholder"></div>
 
           <% if (book.local) { %>
-          <div class="local badge" title="Local author">&bigstar;</div>
+          <div class="local badge" title="Local author">Local author</div>
           <% } %>
 
           <h2 class="title"><%= book.title %></h2>
           <h3 class="author"><%= book.author %></h3>
+
+          <div class="year"><%= book.year %></div>
+          <div class="genres"><%= book.genre.replace(/; /g, ", ") %></div>
 
           <a class="review-link" href="<%= book.link %>" target="_blank">Read full review</a>
         </div>
