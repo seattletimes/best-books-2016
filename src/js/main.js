@@ -1,5 +1,5 @@
-// require("./lib/social");
-// require("./lib/ads");
+require("./lib/social");
+require("./lib/ads");
 // var track = require("./lib/tracking");
 
 var $ = require("./lib/qsa");
@@ -38,7 +38,7 @@ var createFilterElements = function(c) {
   return `
   <li>
     <input type="checkbox" id="${c}" value="${c}">
-    <label for="${c}">${c} (${this[c]})</label>
+    <label for="${c}">${c} <span class="count">${this[c]}</span></label>
   </li>`
 };
 

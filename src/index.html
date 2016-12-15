@@ -11,23 +11,21 @@
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <header class="constrained">
-      <h1>The best books</h1>
+      <h1>The Seattle Times' recommended reading list</h1>
+
+      <p class="chatter">
+        "Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read." Nobody summed up literature like Groucho Marx, but his famous quote is silent on your choice of reading material. Use the interactive guide below to find our recommendations since 2014, including an option to filter for only local authors.
+      </p>
     </header>
 
     <main class="app constrained">
 
-
+      <input type="checkbox" id="show-filters">
+      <label class="show-filters" for="show-filters">filters</label>
       <div class="filters">
-        <ul class="category">
-          <li>
-            Fiction
-            <ul class="Fiction"></ul>
-          </li>
-          <li>
-            Nonfiction
-            <ul class="Nonfiction"></ul>
-          </li>
-        </ul>
+        <h2>Genre</h2>
+        <ul class="category"> </ul>
+        <h2>Year</h2>
         <ul class="year"></ul>
         <ul class="local">
           <li>
@@ -38,7 +36,7 @@
       </div>
 
       <div class="listings">
-      <% json.books.forEach(function(book) { %>
+      <% json.books.sort(function(a, b) { return a.title < b.title ? -1 : 1 }).forEach(function(book) { %>
         <div class="book"
           data-category="<%= book.category %>"
           data-genre="<%= book.genre %>"
@@ -66,6 +64,8 @@
       </div>
 
     </main>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
