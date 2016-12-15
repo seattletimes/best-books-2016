@@ -32,7 +32,7 @@
         <ul class="local">
           <li>
             <input type="checkbox" value="local" id="local">
-            <label for="local">Local authors</label>
+            <label for="local">Local authors only</label>
           </li>
         </ul>
       </div>
@@ -55,12 +55,14 @@
           <h2 class="title"><%= book.title %></h2>
           <h3 class="author"><%= book.author %></h3>
 
-          <div class="year"><%= book.year %></div>
-          <div class="genres"><%= book.genre.replace(/; /g, ", ") %></div>
+          <div class="meta"><%= book.year %> - <%= book.genre.replace(/; /g, ", ") %></div>
 
           <a class="review-link" href="<%= book.link %>" target="_blank">Read full review</a>
         </div>
       <% }) %>
+        <div class="no-results">
+          No results found
+        </div>
       </div>
 
     </main>

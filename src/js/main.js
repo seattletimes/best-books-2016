@@ -7,6 +7,8 @@ var flip = require("./lib/flip");
 
 var noop = function() {};
 
+var listingElement = document.querySelector(".listings");
+
 var categories = {};
 var years = {};
 
@@ -58,6 +60,8 @@ var runFilters = function(e) {
   //get initial position
   books.forEach(b => b.first = b.element.getBoundingClientRect());
 
+  var found = false;
+
   books.forEach(function(b) {
     var show = true;
     if (cats.length && !cats.some(c => c in b.genres)) show = false;
@@ -66,30 +70,36 @@ var runFilters = function(e) {
 
     b.element.classList.remove("animated");
     var isVisible = !b.element.classList.contains("hidden");
-    if (show && isVisible) {
-      flipping.push(b);
+    if (show) {
+      found = true;
+      if (isVisible) {
+        flipping.push(b);
+      } else {
+        b.element.classList.add("animated", "faded");
+      }
     }
     b.element.classList[show ? "remove" : "add"]("hidden");
-    if (show && !isVisible) {
-      b.element.classList.add("animated", "faded");
-    }
   });
 
-  requestAnimationFrame(function() {
-    flipping.forEach(function(b) {
-      var bounds = b.element.getBoundingClientRect();
-      var offset = {
-        x: b.first.left - bounds.left,
-        y: b.first.top - bounds.top
-      };
-      b.element.style.transform = `translate(${offset.x}px, ${offset.y}px)`;
-      var reflow = b.element.offsetWidth;
-      b.element.classList.add("animated");
-      b.element.style.transform = "";
+  if (!found) {
+    listingElement.classList.add("empty");
+  } else {
+    listingElement.classList.remove("empty");
+    requestAnimationFrame(function() {
+      flipping.forEach(function(b) {
+        var bounds = b.element.getBoundingClientRect();
+        var offset = {
+          x: b.first.left - bounds.left,
+          y: b.first.top - bounds.top
+        };
+        b.element.style.transform = `translate(${offset.x}px, ${offset.y}px)`;
+        var reflow = b.element.offsetWidth;
+        b.element.classList.add("animated");
+        b.element.style.transform = "";
+      });
+      $(".faded").forEach(el => el.classList.remove("faded"));
     });
-    $(".faded").forEach(el => el.classList.remove("faded"));
-  });
-
+  }
 };
 
 filterElement.addEventListener("change", runFilters);
