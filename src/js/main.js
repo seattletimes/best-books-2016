@@ -29,32 +29,34 @@ var books = $(".book").map(function(b, i) {
   return data;
 });
 
-var catFilter = document.querySelector(".filters ul.category");
-catFilter.innerHTML = Object.keys(categories).sort().map(c => `
+var createFilterElements = function(c) {
+  return `
   <li>
     <input type="checkbox" id="${c}" value="${c}">
-    <label for="${c}">${c} (${categories[c]})</label>
-  </li>`).join("");
+    <label for="${c}">${c} (${this[c]})</label>
+  </li>`
+};
+
+var catFilter = document.querySelector(".filters ul.category");
+catFilter.innerHTML = Object.keys(categories).sort().map(createFilterElements.bind(categories)).join("");
 
 var yearFilter = document.querySelector(".filters ul.year");
-yearFilter.innerHTML = Object.keys(years).sort().reverse().map(c => `
-  <li>
-    <input type="checkbox" id="${c}" value="${c}">
-    <label for="${c}">${c} (${years[c]})</label>
-  </li>`).join("");
+yearFilter.innerHTML = Object.keys(years).sort().reverse().map(createFilterElements.bind(years)).join("");
 
 var filterElement = document.querySelector(".filters");
 
 filterElement.addEventListener("change", function(e) {
   var cats = $("input:checked", catFilter).map(el => el.value);
   var years = $("input:checked", yearFilter).map(el => el.value);
+  var local = document.querySelector(".filters .local input:checked");
 
   books.forEach(function(b) {
     var show = true;
     if (cats.length && !cats.some(c => c in b.genres)) show = false;
     if (years.length && years.indexOf(b.year) < 0) show = false;
+    if (local && !b.local) show = false;
 
     b.element.classList[show ? "remove" : "add"]("hidden");
-  })
+  });
 
 });

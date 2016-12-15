@@ -9,13 +9,29 @@
     <main class="app">
 
       <div class="filters">
-        <ul class="category"></ul>
+        <ul class="category">
+          <li>
+            Fiction
+            <ul class="Fiction"></ul>
+          </li>
+          <li>
+            Nonfiction
+            <ul class="Nonfiction"></ul>
+          </li>
+        </ul>
         <ul class="year"></ul>
+        <ul class="local">
+          <li>
+            <input type="checkbox" value="local" id="local">
+            <label for="local">Local authors</label>
+          </li>
+        </ul>
       </div>
 
       <div class="listings">
       <% json.books.forEach(function(book) { %>
         <div class="book"
+          data-category="<%= book.category %>"
           data-genre="<%= book.genre %>"
           data-year="<%= book.year %>"
           data-local="<%= book.local %>"
