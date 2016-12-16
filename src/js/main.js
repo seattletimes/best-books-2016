@@ -46,6 +46,7 @@ var books = $(".book").map(function(b, index) {
   data.cover = b.querySelector(".cover").getAttribute("src");
 
   data.element = b;
+  data.index = index;
   b.setAttribute("data-index", index);
   return data;
 });
@@ -66,7 +67,11 @@ yearFilter.innerHTML = Object.keys(years).sort().reverse().map(createFilterEleme
 
 var filterElement = document.querySelector(".filters");
 
+var bookCache = [];
+
 var runFilters = function(e) {
+  appElement.classList.remove("show-modal");
+
   var cats = $("input:checked", catFilter).map(el => el.value);
   var years = $("input:checked", yearFilter).map(el => el.value);
   var local = document.querySelector(".filters .local input:checked");
@@ -78,6 +83,8 @@ var runFilters = function(e) {
 
   var found = false;
 
+  bookCache = [];
+
   books.forEach(function(b) {
     var show = true;
     if (cats.length && !cats.some(c => c in b.genres)) show = false;
@@ -87,6 +94,7 @@ var runFilters = function(e) {
     b.element.classList.remove("animated");
     var isVisible = !b.element.classList.contains("hidden");
     if (show) {
+      bookCache.push(b);
       found = true;
       if (isVisible) {
         flipping.push(b);
@@ -122,8 +130,10 @@ filterElement.addEventListener("change", runFilters);
 runFilters();
 
 var modalElement = document.querySelector(".modal .content");
+var modalID = null;
 
 var showModal = function(book) {
+  modalID = book.index;
   modalElement.innerHTML = modalTemplate(book);
   appElement.classList.add("show-modal");
   if (window.innerWidth > 768) animateScroll(appElement);
@@ -136,6 +146,7 @@ var clickBook = function(e) {
 };
 
 var closeModal = function() {
+  modalID = null;
   appElement.classList.remove("show-modal");
 };
 
@@ -144,9 +155,23 @@ var expandBlurb = function() {
   book.classList.add("expanded");
 };
 
+var bookSequence = function() {
+  var current = books[modalID];
+  var index = bookCache.indexOf(current);
+  if (this.classList.contains("next")) {
+    index++;
+    if (index >= bookCache.length) index = 0;
+  } else {
+    index--
+    if (index < 0) index = bookCache.length - 1;
+  }
+  var next = bookCache[index];
+  showModal(next);
+}
+
 books.forEach(function(b) {
   b.element.addEventListener("click", clickBook);
 });
 document.querySelector(".close-modal").addEventListener("click", () => appElement.classList.remove("show-modal"));
-
+$(".modal .in.sequence").forEach(el => el.addEventListener("click", bookSequence));
 $(".expand-book").forEach(el => el.addEventListener("click", expandBlurb));
