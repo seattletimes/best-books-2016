@@ -43,25 +43,28 @@
           data-year="<%= book.year %>"
           data-local="<%= book.local %>"
           data-title="<%= book.title %>">
+          <div class="wrapper">
 
-          <% if (book.cover) { %>
-          <img class="cover" src="./assets/<%= book.cover %>.jpg">
-          <% } else { %>
-          <div class="placeholder"></div>
-          <% } %>
-
-          <div class="details">
-
-            <% if (book.local) { %>
-            <div class="local badge" title="Local author">Local author</div>
+            <% if (book.cover) { %>
+            <img class="cover" src="./assets/<%= book.cover %>.jpg">
+            <% } else { %>
+            <div class="placeholder"></div>
             <% } %>
 
-            <h2 class="title"><%= book.title %></h2>
-            <h3 class="author"><%= book.author %></h3>
+            <div class="details">
 
-            <div class="meta"><%= book.year %> - <%= book.genre.replace(/; /g, ", ") %></div>
+              <% if (book.local) { %>
+              <div class="local badge" title="Local author">Local author</div>
+              <% } %>
 
-            <a class="review-link" href="<%= book.link %>" target="_blank">Read full review</a>
+              <h2 class="title"><%= book.title %></h2>
+              <h3 class="author"><%= book.author %></h3>
+
+              <div class="meta"><%= book.year %> - <%= book.genre.replace(/; /g, ", ") %></div>
+
+              <a class="review-link" href="<%= book.link %>" target="_blank">Read full review</a>
+
+            </div>
 
           </div>
         </div>
