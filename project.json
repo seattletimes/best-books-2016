@@ -6,16 +6,16 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2016/good-reads"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Good reads",
+  "description": "So many books, so little time. That’s why we’ve compiled the best books of the year, each year from 2014 to present, from our Seattle Times critics.",
+  "url": "https://projects.seattletimes.com/2016/good-reads/",
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": ["1lIg_AQl0Sv7QHw3RRqpxFg4VAOCw2pBGRJ5op-xGMYM"],
   "production": false,
-  "embedded": true
+  "embedded": false
 }

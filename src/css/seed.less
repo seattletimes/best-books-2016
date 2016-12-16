@@ -1,14 +1,21 @@
 @import "seattletimes";
+
 .constrained {
-  max-width: 1200px;
+  width: 1200px;
+  max-width: 100%;
   margin: auto;
   padding: 16px;
 }
 
 header {
 
-  h1 {
+  h1, h2 {
     text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
   }
 }
 
@@ -138,11 +145,15 @@ input#show-filters {
     display: block;
   }
 
+  @media @not-mobile {
+    .show-modal & {
+      display: none;
+    }
+  }
+
   .book {
     .flex(0 0 25%);
-    .display-flex();
-    .align-items(stretch);
-    padding: 16px;
+    padding: 0 16px 24px;
     transform-origin: 0 0;
     transform: translate(0px, 0px);
     opacity: 1;
@@ -174,8 +185,6 @@ input#show-filters {
     }
 
     .wrapper {
-      .flex(0 0 100%);
-
       @media @mobile {
         .display-flex();
         .align-items(center);
@@ -184,8 +193,45 @@ input#show-filters {
 
     .details {
       padding: 8px;
+
+      .boot & {
+        display: none;
+
+        @media @mobile {
+          .flex(1 1 100%);
+          display: block;
+
+          &.secondary {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .expand-book {
+      display: none;
+      text-transform: uppercase;
+      margin: 16px 0;
+      text-align: center;
+      cursor: pointer;
+      color: @df-dark-gray;
+      padding: 2px;
+      border: 1px solid @df-middle-gray;
+
       @media @mobile {
-        .flex(1 1 100%);
+        display: block;
+      }
+    }
+
+    @media @mobile {
+      &.expanded {
+        .expand-book {
+          display: none;
+        }
+
+        .details.secondary {
+          display: block;
+        }
       }
     }
 
@@ -223,35 +269,14 @@ input#show-filters {
       }
     }
 
-    .placeholder {
-      height: 240px;
-      margin: 0 0 8px;
-      @t: transparent;
-      @line: @df-light-gray;
-      @bg: @df-off-white;
-      background-color: @bg;
-      background-image:
-        repeating-linear-gradient(to bottom left, @t 0px, @t 5px, @bg 5px, @bg 6px, @t 6px),
-        repeating-linear-gradient(to bottom right, @t 0px, @t 5px, @bg 5px, @bg 6px, @t 6px),
-        linear-gradient(to bottom right, @t 0%, @t 50%, @line 50%, @line 51%, @t 51%),
-        linear-gradient(to bottom left, @t 0%, @t 50%, @line 50%, @line 51%, @t 51%);
-
-      @media @mobile {
-        .flex(0 0 25%);
-        height: auto;
-        margin-right: 8px;
-      }
-    }
-
     .cover {
       width: 100%;
       box-shadow: 0 8px 8px fade(black, 10%);
-      margin-bottom: 16px;
+      min-width: 0px;
 
       @media @mobile {
-        .flex(0 0 25%);
+        .flex(0 0 50%);
         margin-right: 8px;
-        margin-bottom: 0;
       }
     }
 
@@ -276,5 +301,30 @@ input#show-filters {
 
   &.empty .no-results {
     display: block;
+  }
+}
+
+.modal {
+  display: none;
+  padding: 0 16px;
+
+  @media @not-mobile {
+    .show-modal & {
+      display: block;
+    }
+  }
+
+  .close-modal {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: @df-sans;
+    margin: 0 0 20px 0;
+  }
+
+  .cover {
+    float: right;
+    clear: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 }

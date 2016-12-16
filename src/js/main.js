@@ -1,18 +1,26 @@
+
 require("./lib/social");
 require("./lib/ads");
 // var track = require("./lib/tracking");
 
 var $ = require("./lib/qsa");
 var flip = require("./lib/flip");
+var dot = require("./lib/dot");
+// var animateScroll = require("./lib/animateScroll");
+var closest = require("./lib/closest");
+
+var modalTemplate = dot.compile(require("./_modal.html"));
 
 var noop = function() {};
 
+var appElement = document.querySelector(".app");
+appElement.classList.add("boot");
 var listingElement = document.querySelector(".listings");
 
 var categories = {};
 var years = {};
 
-var books = $(".book").map(function(b, i) {
+var books = $(".book").map(function(b, index) {
   var data = {};
   for (var i = 0; i < b.attributes.length; i++) {
     var attr = b.attributes[i];
@@ -20,6 +28,12 @@ var books = $(".book").map(function(b, i) {
       data[attr.name.replace("data-", "")] = attr.value;
     }
   }
+
+  $("[data-bound]", b).forEach(function(el) {
+    var key = el.getAttribute("data-bound");
+    data[key] = el.innerHTML;
+  });
+
   data.genre = data.genre.split(/;\s*/);
   data.genres = {};
 
@@ -29,8 +43,10 @@ var books = $(".book").map(function(b, i) {
   });
   years[data.year] = years[data.year] ? years[data.year] + 1 : 1;
 
+  data.cover = b.querySelector(".cover").getAttribute("src");
+
   data.element = b;
-  b.setAttribute("data-index", i);
+  b.setAttribute("data-index", index);
   return data;
 });
 
@@ -104,3 +120,33 @@ var runFilters = function(e) {
 
 filterElement.addEventListener("change", runFilters);
 runFilters();
+
+var modalElement = document.querySelector(".modal .content");
+
+var showModal = function(book) {
+  modalElement.innerHTML = modalTemplate(book);
+  appElement.classList.add("show-modal");
+  // if (window.innerWidth > 480) animateScroll(modalElement);
+}
+
+var clickBook = function(e) {
+  var id = this.getAttribute("data-index");
+  var book = books[id];
+  showModal(book);
+};
+
+var closeModal = function() {
+  appElement.classList.remove("show-modal");
+};
+
+var expandBlurb = function() {
+  var book = closest(this, ".book");
+  book.classList.add("expanded");
+};
+
+books.forEach(function(b) {
+  b.element.addEventListener("click", clickBook);
+});
+document.querySelector(".close-modal").addEventListener("click", () => appElement.classList.remove("show-modal"));
+
+$(".expand-book").forEach(el => el.addEventListener("click", expandBlurb));
