@@ -170,7 +170,7 @@ input#show-filters {
   transform-origin: 0 0;
   transform: translate(0px, 0px);
   opacity: 1;
-  overflow: hidden;
+  clear: both;
   .flex(0 0 33%);
 
   .boot & {
@@ -282,6 +282,14 @@ input#show-filters {
     width: 100%;
     box-shadow: 0 8px 8px fade(black, 10%);
     min-width: 0px;
+    cursor: pointer;
+    transition: all .2s ease-out;
+
+    &:hover {
+      transform-origin: 50% 50%;
+      transform: scale(1.1);
+      box-shadow: 0 8px 8px fade(black, 20%);
+    }
 
     @media @tablet {
       .flex(0 1 50%);
@@ -315,6 +323,7 @@ input#show-filters {
     cursor: pointer;
     font-family: @df-sans;
     margin: 0 0 20px 0;
+    font-size: 15px;
   }
 
   .cover {
@@ -322,5 +331,12 @@ input#show-filters {
     clear: right;
     margin-left: 20px;
     margin-bottom: 20px;
+  }
+
+  a.read-more {
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+    font-family: @df-sans;
   }
 }

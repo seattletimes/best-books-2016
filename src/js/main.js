@@ -6,7 +6,7 @@ require("./lib/ads");
 var $ = require("./lib/qsa");
 var flip = require("./lib/flip");
 var dot = require("./lib/dot");
-// var animateScroll = require("./lib/animateScroll");
+var animateScroll = require("./lib/animateScroll");
 var closest = require("./lib/closest");
 
 var modalTemplate = dot.compile(require("./_modal.html"));
@@ -126,7 +126,7 @@ var modalElement = document.querySelector(".modal .content");
 var showModal = function(book) {
   modalElement.innerHTML = modalTemplate(book);
   appElement.classList.add("show-modal");
-  // if (window.innerWidth > 480) animateScroll(modalElement);
+  if (window.innerWidth > 768) animateScroll(appElement);
 }
 
 var clickBook = function(e) {
