@@ -4,6 +4,7 @@
     "author": "Chris Bachelder",
     "genre": "Fiction",
     "year": 2016,
+    "cover": "throwbackspecial",
     "link": "http://www.nytimes.com/2016/03/27/books/review/the-throwback-special-by-chris-bachelder.html"
   },
   {
@@ -11,6 +12,7 @@
     "author": "Adam Haslett",
     "genre": "Fiction",
     "year": 2016,
+    "cover": "imaginemegone",
     "link": "http://www.seattletimes.com/entertainment/books/imagine-me-gone-a-family-trapped-in-its-own-history/"
   },
   {
@@ -26,6 +28,7 @@
     "author": "Margot Livesey",
     "genre": "Fiction; Thriller",
     "year": 2016,
+    "cover": "mercury",
     "link": "http://www.seattletimes.com/entertainment/books/margot-liveseys-latest-mercury-is-a-tale-of-obsession/"
   },
   {
@@ -33,6 +36,7 @@
     "author": "Alexandra Oliva",
     "genre": "Fiction; Science Fiction; Thriller",
     "year": 2016,
+    "cover": "lastone",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/the-last-one-whats-behind-the-curtain-at-a-reality-tv-show/"
   },
@@ -41,6 +45,7 @@
     "author": "Stephen O’Connor",
     "genre": "Fiction; Historical Fiction",
     "year": 2016,
+    "cover": "thomas",
     "link": "http://www.npr.org/2016/04/06/471619275/the-agonizing-collision-of-love-and-slavery-in-thomas-jefferson"
   },
   {
@@ -48,6 +53,7 @@
     "author": "Ann Patchett",
     "genre": "Fiction; Historical Fiction",
     "year": 2016,
+    "cover": "commonwealth",
     "link": "http://www.seattletimes.com/entertainment/books/ann-patchetts-commonwealth-two-shattered-marriages-and-what-comes-after/"
   },
   {
@@ -55,6 +61,7 @@
     "author": "Annie Proulx",
     "genre": "Fiction; Historical Fiction",
     "year": 2016,
+    "cover": "barkskins",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/annie-proulxs-barkskins-a-reckoning-for-the-endless-forest/"
   },
@@ -63,6 +70,7 @@
     "author": "Matt Ruff",
     "genre": "Fiction; Historical Fiction; Horror",
     "year": 2016,
+    "cover": "lovecraftcountry",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/matt-ruffs-lovecraft-country-horrors-in-1950s-america/"
   },
@@ -71,6 +79,7 @@
     "author": "Zadie Smith",
     "genre": "Fiction",
     "year": 2016,
+    "cover": "swingtime",
     "link": "http://www.seattletimes.com/entertainment/books/zadie-smiths-swing-time-explores-female-friendship-and-dancing/"
   },
   {
@@ -78,6 +87,7 @@
     "author": "Shawn Vestal",
     "genre": "Fiction; Young Adult",
     "year": 2016,
+    "cover": "daredevils",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/shawn-vestals-daredevils-a-wild-flight-out-of-idaho/"
   },
@@ -86,6 +96,7 @@
     "author": "Colson Whitehead",
     "genre": "Fiction; Historical Fiction",
     "year": 2016,
+    "cover": "undergroundrailroad",
     "link": "http://www.seattletimes.com/entertainment/books/colson-whiteheads-latest-novel-underground-railroad-is-his-finest/"
   },
   {
@@ -93,6 +104,7 @@
     "author": "Joy Williams",
     "genre": "Fiction; Short Stories",
     "year": 2016,
+    "cover": "storiesofgod",
     "link": "http://www.seattletimes.com/entertainment/books/ninety-nine-stories-of-god-one-deity-99-shards-of-truth/"
   },
   {
@@ -100,6 +112,7 @@
     "author": "Jacqueline Woodson",
     "genre": "Fiction; Young Adult",
     "year": 2016,
+    "cover": "anotherbrookyln",
     "link": "http://www.seattletimes.com/entertainment/books/jacqueline-woodsons-another-brooklyn-sharing-the-weight-of-growing-up-girl/"
   },
   {
@@ -107,6 +120,7 @@
     "author": "Frances Backhouse",
     "genre": "Nonfiction; Nature/Environment",
     "year": 2016,
+    "cover": "oncetheywerehats",
     "link": "http://www.seattletimes.com/entertainment/books/once-they-were-hats-the-saga-of-the-resilient-beaver/"
   },
   {
@@ -114,6 +128,7 @@
     "author": "Peter Cozzens",
     "genre": "Nonfiction; History; War",
     "year": 2016,
+    "cover": "earthisweeping",
     "link": "http://www.seattletimes.com/entertainment/books/peter-cozzens-new-book-examines-25-years-of-us-native-american-policy/"
   },
   {
@@ -121,6 +136,7 @@
     "author": "Ruth Franklin",
     "genre": "Nonfiction; Biography",
     "year": 2016,
+    "cover": "shirley",
     "link": "http://www.seattletimes.com/entertainment/books/the-haunted-humorous-life-and-work-of-writer-shirley-jackson/"
   },
   {
@@ -128,6 +144,7 @@
     "author": "Claire Harman",
     "genre": "Nonfiction; Biography",
     "year": 2016,
+    "cover": "charlotte",
     "link": "http://www.seattletimes.com/entertainment/books/charlotte-bront-a-short-quiet-life-of-tragedy-and-talent/"
   },
   {
@@ -135,6 +152,7 @@
     "author": "John le Carré",
     "genre": "Nonfiction; Memoir",
     "year": 2016,
+    "cover": "pigeontunnel",
     "link": "http://www.seattletimes.com/entertainment/books/john-le-carrs-the-pigeon-tunnel-some-spellbinding-true-tales-of-a-master-spy-novelist/"
   },
   {
@@ -142,6 +160,7 @@
     "author": "Robert Macfarlane",
     "genre": "Nonfiction; Nature/Environment",
     "year": 2016,
+    "cover": "landmarks",
     "link": "http://www.nytimes.com/2016/07/28/books/review-landmarks-robert-macfarlane-language-and-landscape.html"
   },
   {
@@ -149,6 +168,7 @@
     "author": "Siddhartha Mukherjee",
     "genre": "Nonfiction; Science",
     "year": 2016,
+    "cover": "thegene",
     "link": "http://www.seattletimes.com/entertainment/books/the-gene-wanders-into-the-biological-weeds-but-its-a-place-youll-want-to-go/"
   },
   {
@@ -156,6 +176,7 @@
     "author": "Robert Moor",
     "genre": "Nonfiction; Nature/Environment; Science",
     "year": 2016,
+    "cover": "ontrails",
     "link": "http://www.seattletimes.com/entertainment/books/on-trails-where-how-and-why-the-earths-creatures-wander/"
   },
   {
@@ -163,6 +184,7 @@
     "author": "Anu Partanen",
     "genre": "Nonfiction",
     "year": 2016,
+    "cover": "nordictheory",
     "link": "http://www.seattletimes.com/entertainment/books/the-nordic-theory-of-everything-northward-for-a-better-life/"
   },
   {
@@ -170,6 +192,7 @@
     "author": "Nathaniel Philbrick",
     "genre": "Nonfiction; History; War",
     "year": 2016,
+    "cover": "valiantambition",
     "link": "http://www.seattletimes.com/entertainment/books/nathaniel-philbricks-valiant-ambition-how-betrayal-helped-win-the-revolutionary-war/"
   },
   {
@@ -177,6 +200,7 @@
     "author": "Pamela Rotner Sakamoto",
     "genre": "Nonfiction; History; War",
     "year": 2016,
+    "cover": "midnightinbroaddaylight",
     "link": "http://www.seattletimes.com/entertainment/books/midnight-in-broad-daylight-world-war-ii-sunders-a-family/"
   },
   {
@@ -192,6 +216,7 @@
     "author": "Elaine Showalter",
     "genre": "Nonfiction; History; Biography",
     "year": 2016,
+    "cover": "civilwars",
     "link": "http://www.seattletimes.com/entertainment/books/the-embattled-heart-and-home-of-julia-ward-howe/"
   },
   {
@@ -199,6 +224,7 @@
     "author": "J.D. Vance",
     "genre": "Nonfiction; Memoir",
     "year": 2016,
+    "cover": "hillbilly",
     "link": "http://www.seattletimes.com/entertainment/books/book-review-jd-vances-hillbilly-elegy-provides-window-into-trumps-america/"
   },
   {
@@ -206,6 +232,7 @@
     "author": "Kate Atkinson",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "godinruins",
     "link": "http://www.seattletimes.com/entertainment/books/kate-atkinsons-a-god-in-ruins-songs-never-sung/"
   },
   {
@@ -213,6 +240,7 @@
     "author": "Zen Cho",
     "genre": "Fiction; Fantasy",
     "year": 2015,
+    "cover": "sorcerertocrown",
     "link": "http://www.seattletimes.com/entertainment/books/sorcerer-to-the-crown-magic-afoot-in-regency-england/"
   },
   {
@@ -220,6 +248,7 @@
     "author": "Ivan Doig",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "lastbus",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/last-bus-to-wisdom-writer-ivan-doigs-final-road-trip/"
   },
@@ -228,6 +257,7 @@
     "author": "Sara Donati",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "gildedhour",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/the-gilded-hour-a-tale-of-two-women-in-1880s-new-york/"
   },
@@ -236,6 +266,7 @@
     "author": "Jonathan Franzen",
     "genre": "Fiction",
     "year": 2015,
+    "cover": "purity",
     "link": "http://www.seattletimes.com/entertainment/books/jonathan-franzens-purity-truth-tellers-dysfunction-and-a-modern-day-pip/"
   },
   {
@@ -243,6 +274,7 @@
     "author": "Lauren Groff",
     "genre": "Fiction",
     "year": 2015,
+    "cover": "fatesfuries",
     "link": "http://www.seattletimes.com/entertainment/books/lauren-groffs-fates-and-furies-portrait-of-a-marriage/"
   },
   {
@@ -250,6 +282,7 @@
     "author": "Nick Hornby",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "funnygirl",
     "link": "http://www.seattletimes.com/entertainment/books/nick-hornbys-funny-girl-a-60s-brit-tv-star-and-her-retinue/"
   },
   {
@@ -257,6 +290,7 @@
     "author": "S.M. Hulse",
     "genre": "Fiction; Western",
     "year": 2015,
+    "cover": "blackriver",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/black-river-pain-justice-and-resolution-at-a-montana-prison/"
   },
@@ -265,6 +299,7 @@
     "author": "Stephen King",
     "genre": "Fiction; Horror; Mystery",
     "year": 2015,
+    "cover": "finderskeepers",
     "link": "http://www.seattletimes.com/entertainment/books/finders-keepers-stephen-kings-sequel-to-mr-mercedes-is-a-nail-biter/"
   },
   {
@@ -272,6 +307,7 @@
     "author": "Colum McCann",
     "genre": "Fiction; Short Stories",
     "year": 2015,
+    "cover": "thirteenways",
     "link": "http://www.seattletimes.com/entertainment/books/thirteen-ways-of-looking-chorus-of-the-living-and-dead/"
   },
   {
@@ -279,6 +315,7 @@
     "author": "Viet Thanh Nguyen",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "sympathizer",
     "link": "http://www.seattletimes.com/entertainment/books/the-sympathizer-a-double-life-in-vietnam-and-in-america/"
   },
   {
@@ -286,6 +323,7 @@
     "author": "Leonard Pitts Jr.",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "grantpark",
     "link": "http://www.seattletimes.com/entertainment/books/grant-park-the-long-hard-road-of-american-race-relations/"
   },
   {
@@ -293,6 +331,7 @@
     "author": "Mary Doria Russell",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "epitaph",
     "link": "http://www.seattletimes.com/entertainment/books/mary-doria-russells-epitaph-vivid-new-life-in-an-old-story/"
   },
   {
@@ -300,6 +339,7 @@
     "author": "Neal Stephenson",
     "genre": "Fiction; Science Fiction",
     "year": 2015,
+    "cover": "seveneves",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/seveneves-the-end-and-beginning-of-life-on-earth/"
   },
@@ -308,6 +348,7 @@
     "author": "Naomi J. Williams",
     "genre": "Fiction; Historical Fiction",
     "year": 2015,
+    "cover": "landfalls",
     "link": "http://www.seattletimes.com/entertainment/books/landfalls-a-dazzling-debut-novel-about-a-lost-expedition/"
   },
   {
@@ -315,6 +356,7 @@
     "author": "Don Winslow",
     "genre": "Fiction; Crime; Thriller",
     "year": 2015,
+    "cover": "cartel",
     "link": "http://www.seattletimes.com/entertainment/books/qa-don-winslow-on-writing-the-real-life-horrors-in-the-cartel/"
   },
   {
@@ -322,6 +364,7 @@
     "author": "Rinker Buck",
     "genre": "Nonfiction; History",
     "year": 2015,
+    "cover": "oregontrail",
     "link": "http://www.seattletimes.com/entertainment/books/the-oregon-trail-in-the-footsteps-of-the-pioneers/"
   },
   {
@@ -329,6 +372,7 @@
     "author": "Alexandra Fuller",
     "genre": "Nonfiction; Memoir",
     "year": 2015,
+    "cover": "leavingbeforerains",
     "link": "http://old.seattletimes.com/html/books/2025586559_rainsalexandrafullerxml.html"
   },
   {
@@ -336,6 +380,7 @@
     "author": "Bryan Burrough",
     "genre": "Nonfiction; History",
     "year": 2015,
+    "cover": "daysofrage",
     "link": "http://www.seattletimes.com/entertainment/books/days-of-rage-the-long-ago-war-between-the-left-and-the-fbi/"
   },
   {
@@ -343,6 +388,7 @@
     "author": "Robert Christgau",
     "genre": "Nonfiction; Memoir; Music",
     "year": 2015,
+    "cover": "goingintocity",
     "link": "http://www.seattletimes.com/entertainment/books/robert-christgau-memoir-going-into-the-city-like-a-history-of-rock-criticism/"
   },
   {
@@ -350,6 +396,7 @@
     "author": "Ta-Nehisi Coates",
     "genre": "Nonfiction; Memoir; Social Justice",
     "year": 2015,
+    "cover": "betweentheworld",
     "link": "http://www.seattletimes.com/entertainment/books/between-the-world-and-me-to-be-black-in-todays-america/"
   },
   {
@@ -357,6 +404,7 @@
     "author": "Charlotte Gordon",
     "genre": "Nonfiction; Biography; History",
     "year": 2015,
+    "cover": "romanticoutlaws",
     "link": "http://www.seattletimes.com/entertainment/books/romantic-outlaws-a-mother-and-daughter-of-spirit-and-heart/"
   },
   {
@@ -364,6 +412,7 @@
     "author": "Nisid Hajari",
     "genre": "Nonfiction; History",
     "year": 2015,
+    "cover": "midnightsfuries",
     "link": "http://www.seattletimes.com/entertainment/books/midnights-furies-roots-of-the-deadly-violence-of-the-partition/"
   },
   {
@@ -371,6 +420,7 @@
     "author": "Thor Hanson",
     "genre": "Nonfiction; Science; History",
     "year": 2015,
+    "cover": "triumphofseeds",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/thor-hansons-the-triumph-of-seeds-new-life-tiny-package/"
   },
@@ -379,6 +429,7 @@
     "author": "Helen Macdonald",
     "genre": "Nonfiction; Memoir; Nature/Environment",
     "year": 2015,
+    "cover": "hforhawk",
     "link": "http://www.seattletimes.com/entertainment/books/h-is-for-hawk-in-the-slipstream-of-grief/"
   },
   {
@@ -386,6 +437,7 @@
     "author": "David Maraniss",
     "genre": "Nonfiction; History",
     "year": 2015,
+    "cover": "oncegreatcity",
     "link": "http://www.seattletimes.com/entertainment/books/once-in-a-great-city-a-thriving-detroit-on-the-precipice/"
   },
   {
@@ -393,6 +445,7 @@
     "author": "Janice P. Nimura",
     "genre": "Nonfiction; History",
     "year": 2015,
+    "cover": "daughtersofsamurai",
     "link": "http://www.seattletimes.com/entertainment/books/daughters-of-the-samurai-between-japan-and-america/"
   },
   {
@@ -400,6 +453,7 @@
     "author": "Sam Quinones",
     "genre": "Nonfiction; History; Crime",
     "year": 2015,
+    "cover": "dreamland",
     "link": "http://www.seattletimes.com/entertainment/books/the-book-dreamland-chronicles-americas-opiate-nightmare/"
   },
   {
@@ -407,6 +461,7 @@
     "author": "Jason Schmidt",
     "genre": "Nonfiction; Memoir",
     "year": 2015,
+    "cover": "listofthings",
     "local": "x",
     "link": "http://www.seattletimes.com/entertainment/books/lsquoa-list-of-things-that-didnrsquot-kill-mersquo-young-and-poor-in-seattle/"
   },
@@ -415,6 +470,7 @@
     "author": "Patti Smith",
     "genre": "Nonfiction; Memoir; Music",
     "year": 2015,
+    "cover": "mtrain",
     "link": "http://www.seattletimes.com/entertainment/music/m-train-patti-smith-on-travels-dreams-and-pilgrimages/"
   },
   {
@@ -422,6 +478,7 @@
     "author": "Sarah Vowell",
     "genre": "Nonfiction; History; Biography",
     "year": 2015,
+    "cover": "lafayette",
     "link": "http://www.seattletimes.com/entertainment/books/sarah-vowells-lafayette-the-frenchman-who-loved-us/"
   },
   {
@@ -429,6 +486,7 @@
     "author": "Alexandra Witze and Jeff Kanipe",
     "genre": "Nonfiction; History; Science; Nature/Environment",
     "year": 2015,
+    "cover": "islandonfire",
     "link": "http://www.seattletimes.com/entertainment/books/lsquoisland-on-firersquo-a-cataclysmic-long-ago-icelandic-volcano/"
   },
   {
@@ -436,6 +494,7 @@
     "author": "Sarah Bird",
     "genre": "Fiction; Historical Fiction",
     "year": 2014,
+    "cover": "eastchinasea",
     "link": "http://old.seattletimes.com/html/books/2023932556_eastchinaseabirdxml.html"
   },
   {
@@ -443,6 +502,7 @@
     "author": "Joseph Boyden",
     "genre": "Fiction; Historical Fiction",
     "year": 2014,
+    "cover": "orenda",
     "link": "http://old.seattletimes.com/html/books/2023553400_josephboydenorendaxml.html"
   },
   {
@@ -450,6 +510,7 @@
     "author": "Anthony Doerr",
     "genre": "Fiction; Historical Fiction; War",
     "year": 2014,
+    "cover": "allthelight",
     "link": "http://www.seattletimes.com/entertainment/books/lsquoall-the-light-we-cannot-seersquo-a-gem-of-a-world-war-ii-novel/"
   },
   {
@@ -457,6 +518,7 @@
     "author": "Richard Flanagan",
     "genre": "Fiction; Historical Fiction; War",
     "year": 2014,
+    "cover": "narrowroad",
     "link": "http://old.seattletimes.com/html/books/2024399618_flanagannarrowroadxml.html"
   },
   {
@@ -464,6 +526,7 @@
     "author": "Richard Ford",
     "genre": "Fiction; Short Stories",
     "year": 2014,
+    "cover": "letmebefrank",
     "link": "http://old.seattletimes.com/html/books/2025057299_richardfordfrankxml.html"
   },
   {
@@ -471,6 +534,7 @@
     "author": "Jane Gardam",
     "genre": "Fiction; Short Stories",
     "year": 2014,
+    "cover": "janegardam",
     "link": "http://old.seattletimes.com/html/books/2023819609_storiesjanegardamxml.html?syndication=rss"
   },
   {
@@ -478,6 +542,7 @@
     "author": "William Gibson",
     "genre": "Fiction; Science Fiction; Thriller",
     "year": 2014,
+    "cover": "peripheral",
     "link": "http://old.seattletimes.com/html/books/2024855682_williamgibsonperipheralxml.html"
   },
   {
@@ -485,6 +550,7 @@
     "author": "Alice Hoffman",
     "genre": "Fiction; Historical Fiction; Fantasy",
     "year": 2014,
+    "cover": "museumofextraordinary",
     "link": "http://old.seattletimes.com/html/books/2022890903_museumextraordinarythingshoffmanxml.html"
   },
   {
@@ -492,6 +558,7 @@
     "author": "Marlon James",
     "genre": "Fiction; Mystery",
     "year": 2014,
+    "cover": "sevenkillings",
     "link": "http://www.seattletimes.com/entertainment/books/lsquoa-brief-history-of-seven-killingsrsquo-a-gritty-jamaican-epic/"
   },
   {
@@ -499,6 +566,7 @@
     "author": "Lily King",
     "genre": "Fiction; Historical Fiction",
     "year": 2014,
+    "cover": "euphoria",
     "link": "http://old.seattletimes.com/html/books/2023880370_lilykingeuphoriaxml.html"
   },
   {
@@ -506,6 +574,7 @@
     "author": "Emily St. John Mandel",
     "genre": "Fiction; Science Fiction",
     "year": 2014,
+    "cover": "stationeleven",
     "link": "http://www.seattletimes.com/entertainment/books/lsquostation-elevenrsquo-in-a-dark-time-the-playrsquos-still-the-thing/"
   },
   {
@@ -513,6 +582,7 @@
     "author": "Larry McMurtry",
     "genre": "Fiction; Historical Fiction; Western",
     "year": 2014,
+    "cover": "lastkindwords",
     "link": "http://www.seattletimes.com/entertainment/books/lsquothe-last-kind-words-saloonrsquo-an-elegiac-tale-of-the-old-west/"
   },
   {
@@ -520,6 +590,7 @@
     "author": "Brian Payton",
     "genre": "Fiction; Historical Fiction; War",
     "year": 2014,
+    "cover": "windisnot",
     "link": "http://old.seattletimes.com/html/books/2022740793_windriverpaytonxml.html"
   },
   {
@@ -527,6 +598,7 @@
     "author": "Michael Pitre",
     "genre": "Fiction; Historical Fiction; War",
     "year": 2014,
+    "cover": "fivesandtwentyfives",
     "link": "https://www.nytimes.com/2014/08/21/books/fives-and-twenty-fives-by-michael-pitre-shows-wartime-iraq.html"
   },
   {
@@ -534,6 +606,7 @@
     "author": "Tom Rachman",
     "genre": "Fiction; Mystery",
     "year": 2014,
+    "cover": "riseandfall",
     "link": "http://old.seattletimes.com/html/books/2023764990_tomrachmangreatpowersxml.html"
   },
   {
@@ -541,6 +614,7 @@
     "author": "Marilynne Robinson",
     "genre": "Fiction; Historical Fiction",
     "year": 2014,
+    "cover": "lila",
     "link": "http://old.seattletimes.com/html/books/2024671170_lilamarilynnerobinsonxml.html"
   },
   {
@@ -548,6 +622,7 @@
     "author": "Jane Smiley",
     "genre": "Fiction; Historical Fiction",
     "year": 2014,
+    "cover": "someluck",
     "link": "http://www.seattletimes.com/entertainment/books/lsquosome-luckrsquo-jane-smileyrsquos-saga-of-an-iowa-farm-family/"
   },
   {
@@ -555,6 +630,7 @@
     "author": "Edward St. Aubyn",
     "genre": "Fiction",
     "year": 2014,
+    "cover": "lostforwords",
     "link": "https://www.nytimes.com/2014/05/25/books/review/lost-for-words-by-edward-st-aubyn.html"
   },
   {
@@ -562,6 +638,7 @@
     "author": "Sarah Waters",
     "genre": "Fiction; Historical Fiction",
     "year": 2014,
+    "cover": "payingguests",
     "link": "http://www.seattletimes.com/entertainment/books/lsquothe-paying-guestsrsquo-illicit-love-an-invitation-to-disaster/"
   },
   {
@@ -569,6 +646,7 @@
     "author": "Diane Ackerman",
     "genre": "Nonfiction; Science; Nature/Environment",
     "year": 2014,
+    "cover": "humanage",
     "link": "http://www.seattletimes.com/entertainment/books/lsquothe-human-agersquo-survey-of-the-wonders-of-a-battered-earth/"
   },
   {
@@ -576,6 +654,7 @@
     "author": "Randall Balmer",
     "genre": "Nonfiction; Biography",
     "year": 2014,
+    "cover": "redeemer",
     "link": "http://www.seattletimes.com/entertainment/books/lsquoredeemerrsquo-the-evolution-and-ascent-of-jimmy-carter/"
   },
   {
@@ -583,6 +662,7 @@
     "author": "Roz Chast",
     "genre": "Nonfiction; Memoir",
     "year": 2014,
+    "cover": "cantwetalk",
     "link": "https://www.nytimes.com/2014/06/01/books/review/roz-chasts-cant-we-talk-about-something-more-pleasant.html"
   },
   {
@@ -590,6 +670,7 @@
     "author": "Dave Goulson",
     "genre": "Nonfiction; Science; Nature/Environment",
     "year": 2014,
+    "cover": "stinginthetale",
     "link": "http://www.seattletimes.com/entertainment/books/lsquoa-sting-in-the-talersquo-the-essential-bumblebee/"
   },
   {
@@ -597,6 +678,7 @@
     "author": "S.C. Gwynne",
     "genre": "Nonfiction; History; Biography; War",
     "year": 2014,
+    "cover": "rebelyell",
     "link": "http://old.seattletimes.com/html/books/2024905180_litlifestonewalljacksonxml.html?syndication=rss"
   },
   {
@@ -604,6 +686,7 @@
     "author": "Randall Hansen",
     "genre": "Nonfiction; History; War",
     "year": 2014,
+    "cover": "disobeyinghitler",
     "link": "https://www.utoronto.ca/news/disobeying-hitler-german-resistance-after-operation-valkyrie"
   },
   {
@@ -611,6 +694,7 @@
     "author": "Charles King",
     "genre": "Nonfiction; History",
     "year": 2014,
+    "cover": "midnightperapalace",
     "link": "http://old.seattletimes.com/html/books/2024505130_kingperapalacexml.html?syndication=rss"
   },
   {
@@ -618,6 +702,7 @@
     "author": "Walter Kirn",
     "genre": "Nonfiction; Crime; Memoir",
     "year": 2014,
+    "cover": "bloodwillout",
     "link": "https://www.nytimes.com/2014/03/09/books/review/walter-kirns-blood-will-out.html"
   },
   {
@@ -625,6 +710,7 @@
     "author": "Elizabeth Kolbert",
     "genre": "Nonfiction; Science; Nature/Environment",
     "year": 2014,
+    "cover": "sixthextinction",
     "link": "http://www.seattletimes.com/entertainment/books/a-journalist-investigates-the-planetrsquos-lsquosixth-extinctionrsquo/"
   },
   {
@@ -632,6 +718,7 @@
     "author": "Gary Krist",
     "genre": "Nonfiction; History; Crime",
     "year": 2014,
+    "cover": "empireofsin",
     "link": "http://old.seattletimes.com/html/books/2024845582_empiresinkristxml.html"
   },
   {
@@ -639,6 +726,7 @@
     "author": "Hermione Lee",
     "genre": "Nonfiction; Biography",
     "year": 2014,
+    "cover": "penelopefitzgerald",
     "link": "http://old.seattletimes.com/html/books/2025098452_penelopefitzgeraldleexml.html"
   },
   {
@@ -646,6 +734,7 @@
     "author": "Angela Pelster",
     "genre": "Nonfiction",
     "year": 2014,
+    "cover": "limber",
     "link": "http://old.seattletimes.com/html/books/2023387536_limberangelapelsterxml.html"
   },
   {
@@ -653,6 +742,7 @@
     "author": "Bryan Stevenson",
     "genre": "Nonfiction; Memoir; Social Justice",
     "year": 2014,
+    "cover": "justmercy",
     "link": "http://www.seattletimes.com/entertainment/books/lsquojust-mercyrsquo-fighting-injustice-in-a-broken-legal-system/"
   },
   {
