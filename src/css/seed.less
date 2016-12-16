@@ -151,145 +151,6 @@ input#show-filters {
     }
   }
 
-  .book {
-    .flex(0 0 25%);
-    padding: 0 16px 24px;
-    transform-origin: 0 0;
-    transform: translate(0px, 0px);
-    opacity: 1;
-    overflow: hidden;
-
-    @media @tablet {
-      .flex(0 0 33%);
-    }
-
-    @media (max-width: 600px) {
-      .flex(0 0 50%);
-      padding: 8px 0;
-    }
-
-    @media @mobile {
-      display: block;
-    }
-
-    &.animated {
-      transition: all .4s ease-in-out, opacity .3s linear .2s;
-    }
-
-    &.faded {
-      opacity: .01;
-    }
-
-    &.hidden {
-      display: none;
-    }
-
-    .wrapper {
-      @media @mobile {
-        .display-flex();
-        .align-items(center);
-      }
-    }
-
-    .details {
-      padding: 8px;
-
-      .boot & {
-        display: none;
-
-        @media @mobile {
-          .flex(1 1 100%);
-          display: block;
-
-          &.secondary {
-            display: none;
-          }
-        }
-      }
-    }
-
-    .expand-book {
-      display: none;
-      text-transform: uppercase;
-      margin: 16px 0;
-      text-align: center;
-      cursor: pointer;
-      color: @df-dark-gray;
-      padding: 2px;
-      border: 1px solid @df-middle-gray;
-
-      @media @mobile {
-        display: block;
-      }
-    }
-
-    @media @mobile {
-      &.expanded {
-        .expand-book {
-          display: none;
-        }
-
-        .details.secondary {
-          display: block;
-        }
-      }
-    }
-
-    .title {
-      font-size: 16px;
-      margin: 0 0 8px;
-      line-height: 1;
-    }
-
-    .author {
-      color: @df-dark-gray;
-      font-size: 14px;
-      margin: 0 0 8px;
-    }
-
-    .local.badge {
-      float: right;
-      margin-left: 10px;
-      font-size: 13px;
-      background: @st-dark-green;
-      color: white;
-      text-transform: uppercase;
-      padding: 8px 4px;
-      border-radius: 4px;
-      max-width: 60px;
-      text-align: center;
-      line-height: 1;
-
-      @media @tablet {
-        float: none;
-        margin: 0 0 8px;
-        padding: 2px 0;
-        max-width: 100%;
-        width: 100%;
-      }
-    }
-
-    .cover {
-      width: 100%;
-      box-shadow: 0 8px 8px fade(black, 10%);
-      min-width: 0px;
-
-      @media @mobile {
-        .flex(0 0 50%);
-        margin-right: 8px;
-      }
-    }
-
-    .review-link {
-      display: block;
-      text-align: right;
-
-      &::after {
-        content: " >";
-      }
-    }
-  }
-
   .no-results {
     display: none;
     padding: 20px;
@@ -301,6 +162,145 @@ input#show-filters {
 
   &.empty .no-results {
     display: block;
+  }
+}
+
+.book {
+  .flex(0 0 25%);
+  padding: 0 16px 24px;
+  transform-origin: 0 0;
+  transform: translate(0px, 0px);
+  opacity: 1;
+  overflow: hidden;
+
+  @media @tablet {
+    .flex(0 0 33%);
+  }
+
+  @media (max-width: 600px) {
+    .flex(0 0 50%);
+    padding: 8px 0;
+  }
+
+  @media @mobile {
+    display: block;
+  }
+
+  &.animated {
+    transition: all .4s ease-in-out, opacity .3s linear .2s;
+  }
+
+  &.faded {
+    opacity: .01;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  .wrapper {
+    @media @mobile {
+      .display-flex();
+      .align-items(center);
+    }
+  }
+
+  .details {
+    padding: 8px;
+
+    .boot & {
+      display: none;
+
+      @media @mobile {
+        .flex(1 1 100%);
+        display: block;
+
+        &.secondary {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .expand-book {
+    display: none;
+    text-transform: uppercase;
+    margin: 16px 0;
+    text-align: center;
+    cursor: pointer;
+    color: @df-dark-gray;
+    padding: 2px;
+    border: 1px solid @df-middle-gray;
+
+    @media @mobile {
+      display: block;
+    }
+  }
+
+  @media @mobile {
+    &.expanded {
+      .expand-book {
+        display: none;
+      }
+
+      .details.secondary {
+        display: block;
+      }
+    }
+  }
+
+  .title {
+    font-size: 16px;
+    margin: 0 0 8px;
+    line-height: 1;
+  }
+
+  .author {
+    color: @df-dark-gray;
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+
+  .local.badge {
+    float: right;
+    margin-left: 10px;
+    font-size: 13px;
+    background: @st-dark-green;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 4px;
+    border-radius: 4px;
+    max-width: 60px;
+    text-align: center;
+    line-height: 1;
+
+    @media @tablet {
+      float: none;
+      margin: 0 0 8px;
+      padding: 2px 0;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .cover {
+    width: 100%;
+    box-shadow: 0 8px 8px fade(black, 10%);
+    min-width: 0px;
+
+    @media @mobile {
+      .flex(0 0 50%);
+      margin-right: 8px;
+    }
+  }
+
+  .review-link {
+    display: block;
+    text-align: right;
+
+    &::after {
+      content: " >";
+    }
   }
 }
 
