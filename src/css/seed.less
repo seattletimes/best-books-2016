@@ -354,6 +354,8 @@ input#show-filters {
     box-shadow: 0 8px 16px fade(black, 20%);
     padding: 32px;
     border: 1px solid @df-light-gray;
+    max-height: 90vh;
+    max-height: 90%;
 
     .transition-modal & {
       opacity: .01;
@@ -365,9 +367,11 @@ input#show-filters {
     text-transform: uppercase;
     cursor: pointer;
     font-family: @df-sans;
-    margin: 0 0 20px 0;
-    font-size: 15px;
+    margin: 0 0 20px 40px;
+    font-size: 40px;
+    font-weight: bold;
     color: @df-dark-gray;
+    float: right;
   }
 
   .cover {
@@ -375,7 +379,7 @@ input#show-filters {
     clear: right;
     margin-left: 40px;
     margin-bottom: 20px;
-    max-height: 400px;
+    max-height: 300px;
   }
 
   a.read-more {
@@ -400,4 +404,10 @@ input#show-filters {
       color: @df-dark-gray;
     }
   }
+}
+
+.credits {
+  font-size: 14px;
+  padding-left: 20px;
+  list-style-type: none;
 }
