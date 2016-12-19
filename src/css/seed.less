@@ -66,11 +66,10 @@ input#show-filters {
   .flex(0 0 200px);
   font-family: @df-sans;
   font-size: 15px;
-  // position: sticky;
+  padding-top: 16px;
 
   @media @tablet {
     display: none;
-    // position: relative;
 
     input#show-filters:checked + label + & {
       display: block;
@@ -84,6 +83,7 @@ input#show-filters {
     color: @df-middle-gray;
     text-transform: uppercase;
     font-weight: normal;
+    border-bottom: 1px solid @df-light-gray;
   }
 
   ul {
@@ -103,8 +103,8 @@ input#show-filters {
     & + label {
       padding: 4px;
       margin: 2px 0;
-      color: white;
-      background: lighten(desaturate(@df-blue, 80%), 20%);
+      // color: white;
+      // background: lighten(desaturate(@df-blue, 80%), 20%);
       display: block;
       cursor: pointer;
       // text-transform: uppercase;
@@ -124,8 +124,8 @@ input#show-filters {
     }
 
     &:checked + label {
-      color: white;
-      background: @df-blue;
+      // color: white;
+      background: lighten(desaturate(@df-blue, 80%), 40%);
 
       &::before {
         content: "✓"
