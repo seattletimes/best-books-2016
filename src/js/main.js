@@ -174,6 +174,6 @@ var bookSequence = function() {
 books.forEach(function(b) {
   b.element.addEventListener("click", clickBook);
 });
-document.querySelector(".close-modal").addEventListener("click", () => appElement.classList.remove("show-modal"));
+$(".close-modal, .modal .backdrop").forEach(el => el.addEventListener("click", closeModal));
 $(".modal .in.sequence").forEach(el => el.addEventListener("click", bookSequence));
 $(".expand-book").forEach(el => el.addEventListener("click", expandBlurb));
