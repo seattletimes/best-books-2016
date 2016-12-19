@@ -6,7 +6,7 @@ require("./lib/ads");
 var $ = require("./lib/qsa");
 var flip = require("./lib/flip");
 var dot = require("./lib/dot");
-var animateScroll = require("./lib/animateScroll");
+// var animateScroll = require("./lib/animateScroll");
 var closest = require("./lib/closest");
 
 var modalTemplate = dot.compile(require("./_modal.html"));
@@ -129,14 +129,16 @@ var runFilters = function(e) {
 filterElement.addEventListener("change", runFilters);
 runFilters();
 
-var modalElement = document.querySelector(".modal .content");
+var modalContent = document.querySelector(".modal .content");
 var modalID = null;
 
 var showModal = function(book) {
   modalID = book.index;
-  modalElement.innerHTML = modalTemplate(book);
-  appElement.classList.add("show-modal");
-  if (window.innerWidth > 768) animateScroll(appElement);
+  modalContent.innerHTML = modalTemplate(book);
+  appElement.classList.add("show-modal", "transition-modal");
+  var reflow = appElement.offsetWidth;
+  appElement.classList.remove("transition-modal");
+  // if (window.innerWidth > 768) animateScroll(appElement);
 }
 
 var clickBook = function(e) {

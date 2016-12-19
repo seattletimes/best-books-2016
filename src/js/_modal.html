@@ -4,6 +4,10 @@
 
 <h2 class="author">By <%= data.author %></h2>
 
+<div class="meta">
+  <span data-bound="year"><%= data.year %></span> - <%= data.genre.join(", ") %>
+</div>
+
 <p class="blurb"><%= data.blurb %></p>
 
 <a class="read-more" target="_blank" href="<%= data.link %>">Read full review &raquo;</a>

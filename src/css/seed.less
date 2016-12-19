@@ -146,8 +146,9 @@ input#show-filters {
   }
 
   @media @not-tablet {
+    padding-left: 40px;
     .show-modal & {
-      display: none;
+      // display: none;
     }
   }
 
@@ -310,11 +311,31 @@ input#show-filters {
 
 .modal {
   display: none;
-  padding: 0 16px;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 8px 16px fade(black, 20%);
+  border: 1px solid @df-light-gray;
+  font-size: 16px;
 
   @media @not-tablet {
     .show-modal & {
       display: block;
+      position: fixed;
+      width: 600px;
+      max-width: 90%;
+      top: 20px;
+      left: 50%;
+      transform-origin: 50% 50%;
+      transform: translateX(-50%);
+      overflow-y: auto;
+      z-index: 999;
+      transition: all .5s ease-out, opacity .3s linear;
+      opacity: 1;
+    }
+
+    .transition-modal & {
+      opacity: .01;
+      transform: translateX(-50%) translateY(-20%);
     }
   }
 
@@ -324,13 +345,15 @@ input#show-filters {
     font-family: @df-sans;
     margin: 0 0 20px 0;
     font-size: 15px;
+    color: @df-dark-gray;
   }
 
   .cover {
     float: right;
     clear: right;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-bottom: 20px;
+    max-height: 400px;
   }
 
   a.read-more {
@@ -343,6 +366,7 @@ input#show-filters {
   .stepper {
     clear: both;
     .display-flex();
+    padding-top: 20px;
     .justify-content(space-between);
 
     .sequence {
@@ -351,6 +375,7 @@ input#show-filters {
       text-transform: uppercase;
       font-family: @df-sans;
       font-size: 15px;
+      color: @df-dark-gray;
     }
   }
 }
